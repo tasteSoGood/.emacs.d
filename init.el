@@ -180,7 +180,7 @@
     (set-fontset-font (frame-parameter nil 'font) charset
                       (font-spec :family chinese :size chinese-size))))
 
-(set-font  "Ubuntu Mono" "SimHei" 14 14)
+(set-font  "Fira Code" "SimHei" 12 14)
 
 ;; 主题
 (load-theme 'solarized-light)
@@ -188,3 +188,6 @@
 ;; 下方命令栏配置
 (require 'powerline)
 (powerline-default-theme)
+
+;; 出错以后输出错误信息
+;; (setq debug-on-error t)
